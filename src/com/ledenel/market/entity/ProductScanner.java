@@ -9,8 +9,5 @@ public interface ProductScanner {
 
     void attach(ProductScannerListener listener);
     void detach(ProductScannerListener listener);
-    void notifyListeners();
-    void clearAll();
-    void count();
 
 }
